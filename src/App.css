@@ -88,6 +88,10 @@
     display:flex;
     justify-content:space-around;
 }
+.cardG h4,.cardR h4,.card h4{
+    width: 4rem;
+    /* background-color:#18b9d6 */
+}
 
 .cardR{
     border:1px solid #e7530e;
@@ -103,4 +107,8 @@
     position: absolute;
     top: 0;
     left:0;
+}
+.total{
+    font-weight: 400;
+    color:white;
 }
